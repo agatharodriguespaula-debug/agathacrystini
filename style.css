@@ -137,15 +137,9 @@ body {
 }
 
 .escola-image {
-    display: block;
-    width: 100%;
-    max-width: 1400px;
-    height: 400px;
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 24px;
-    box-shadow: 0 12px 30px #67418e25;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    width: 100%;       /* Ocupa toda a largura disponível do container */
+    max-width: 1200px; /* Limita para que não fique gigante em telas muito grandes */
+    height: auto;      /* Mantém a proporção original da imagem para não distorcer */
 }
 
 .escola-image:hover {
