@@ -139,7 +139,7 @@ body {
 .escola-image {
     width: 100%;       /* Ocupa toda a largura disponível do container */
     max-width: 650px; /* Limita para que não fique gigante em telas muito grandes */
-    height: auto;      /* Mantém a proporção original da imagem para não distorcer */
+    height: center;      /* Mantém a proporção original da imagem para não distorcer */
 }
 
 .escola-image:hover {
