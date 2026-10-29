@@ -115,3 +115,7 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+h2, p {
+  margin: 10px;
+}
